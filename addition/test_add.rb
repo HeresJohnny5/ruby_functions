@@ -9,4 +9,13 @@ class TestAddition < Minitest::Test # require for boilerplate. The first letter 
 	def test_5_add_10_equals_15
 		assert_equal(15, my_addition(5, 10))
 	end
+
+	def test_200_add_197_equals_397
+		assert_equal(397, my_addition(200, 197))
+	end
+
+	def test_482_add_1843_equals_2325
+		assert_equal(2325, my_addition(482, 1843))
+	end
+
 end
